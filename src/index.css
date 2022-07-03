@@ -65,3 +65,12 @@ code {
 .social-media-list li:hover a {
   color: #000;
 }
+
+.navLinks {
+  text-decoration: underline;
+  list-style: none;
+}
+
+.navLinks:hover {
+  text-decoration: none;
+}
