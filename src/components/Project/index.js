@@ -14,56 +14,57 @@ function Project() {
             image: projectimg1,
             deployed: 'https://murmuring-harbor-62394.herokuapp.com/',
             github: 'https://github.com/Charanvir/Budget-Tracker',
-            techStack: ['HTML', 'CSS', 'JavaScript', 'PWA', 'IndexedDB', 'MongoDB', 'Mongoose', 'NoSQL', 'Express', 'Node.js', 'Service Workers']
+            techStack: ['PWA, ', 'IndexedDB, ', 'MongoDB, ', 'Mongoose, ', 'NoSQL, ', 'Express, ', 'Service Workers']
         },
-        {
-            name: 'Photo Port',
-            image: projectimg6,
-            deployed: 'https://charanvir.github.io/photo-port/',
-            github: 'https://github.com/Charanvir/photo-port',
-            techStack: ['React', 'JavaScript', 'HTML', "CSS"]
-        },
+
         {
             name: 'Food Festival',
             image: projectimg5,
             deployed: 'https://charanvir.github.io/Food-Festival/index.html',
             github: 'https://github.com/Charanvir/Food-Festival',
-            techStack: ['Express', 'Service Workers', 'IndexedDB', 'Webpack', 'PWA']
+            techStack: ['Express, ', 'Service Workers, ', 'IndexedDB, ', 'Webpack, ', 'PWA']
         },
         {
             name: 'The Charanvir Network',
             image: projectimg2,
             deployed: 'https://vimeo.com/722839360',
             github: 'https://github.com/Charanvir/The-Charanvir-Network',
-            techStack: ['Express', 'MongoDB', 'Mongoose', "NoSQL"]
+            techStack: ['Express, ', 'MongoDB, ', 'Mongoose, ', "NoSQL"]
+        },
+        {
+            name: 'Photo Port',
+            image: projectimg6,
+            deployed: 'https://charanvir.github.io/photo-port/',
+            github: 'https://github.com/Charanvir/photo-port',
+            techStack: ['React, ', 'JavaScript, ', 'HTML, ', "CSS"]
         },
         {
             name: 'dEv Commerce',
             image: projectimg3,
             deployed: 'https://peaceful-fortress-78304.herokuapp.com/',
             github: 'https://github.com/Charanvir/E-Commerce-Website',
-            techStack: ['HTML', "CSS", "JavaScript", "Express", "BootStrap", "Handlebars.js", 'MySQL', 'Sequelize', "Bcrypt"]
+            techStack: ["Express, ", "BootStrap, ", "Handlebars.js, ", 'MySQL, ', 'Sequelize, ', "Bcrypt"]
         },
         {
             name: 'Tech Blog',
             image: projectimg7,
             deployed: 'https://rocky-waters-55819.herokuapp.com/',
             github: 'https://github.com/Charanvir/Tech-Blog-',
-            techStack: ['HTML', "CSS", "JavaScript", "MySQL", "Express", "Sequelize", "Handlebars.js", "Heroku"]
+            techStack: ["MySQL, ", "Express, ", "Sequelize, ", "Handlebars.js, ", "Heroku"]
         },
         {
             name: 'Employee Tracker',
             image: projectimg4,
             deployed: 'https://vimeo.com/705312686',
             github: 'https://github.com/Charanvir/Employee-Tracker',
-            techStack: ['JavaScript', 'Jest', 'Inquirer', "MySQL"]
+            techStack: ['JavaScript, ', 'Jest, ', 'Inquirer, ', "MySQL "]
         },
         {
             name: 'Weather Dashboard',
             image: projectimg8,
             deployed: 'https://charanvir.github.io/Weather-Dashboard/',
             github: 'https://github.com/Charanvir/Weather-Dashboard',
-            techStack: ["HTML", "CSS", "JavaScript", "API"]
+            techStack: ["HTML, ", "CSS, ", "JavaScript, ", "API, "]
         },
     ]
     return (
@@ -80,17 +81,13 @@ function Project() {
                                 <a href={project.deployed} className='imageOverlayDeployed'>Deployed Application</a>
                                 <br></br>
                                 <a href={project.github} className='imageOverlayGithub'>GitHub Repository</a>
-                                {(project.techStack.map((tech) => {
-                                    return (
-                                        <div key={tech} className='row'>
-                                            <p className='col-sm'>{tech}</p>
-                                        </div>
-                                    )
-                                }))}
+                                <div>
+                                    <span className='techStack'>Tech Stack: </span>{project.techStack}
+                                </div>
+
                             </div>
                         </div>
                     </div>
-
                 )
             })}
         </div >
