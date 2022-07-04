@@ -62,7 +62,7 @@ code {
 .social-media-list li:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background-color: #F9B9B7;
+  background-color: #C9D7F8;
 }
 
 .social-media-list li:hover:after {
@@ -215,13 +215,14 @@ form label {
 .projectImageID {
   width: 100%;
   height: 100%;
-  border: 5px solid black;
+  padding: 5px;
 }
 
 .projectDiv {
   margin: auto;
   margin-bottom: 20px;
   border: 1px solid black;
+  background-color: #C9D7F8;
 }
 
 .projectName {
@@ -236,6 +237,23 @@ form label {
 
 .techStack {
   text-decoration: underline;
+}
+
+
+
+
+
+.gradient-border:hover {
+
+  background: linear-gradient(60deg,
+      hsl(224, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%));
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: calc(2 * var(--border-width));
+  animation: moveGradient 1s alternate infinite;
 }
 
 

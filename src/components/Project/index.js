@@ -76,7 +76,7 @@ function Project() {
                             <p className="card-text projectName">{project.name}</p>
                         </div>
                         <div className='projectImg'>
-                            <img className='projectImageID' src={project.image} alt={project.name}></img>
+                            <img className='projectImageID gradient-border' src={project.image} alt={project.name}></img>
                             <div className='imageOverlay'>
                                 <a href={project.deployed} className='imageOverlayDeployed'>Deployed Application</a>
                                 <br></br>
