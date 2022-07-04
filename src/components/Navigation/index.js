@@ -18,7 +18,7 @@ function Navigation(props) {
                 >
                     <span
                         onClick={() => {
-                            setCurrentSection(section);
+                            setCurrentSection(section.name);
                             console.log(currentSection)
                         }}
                     >

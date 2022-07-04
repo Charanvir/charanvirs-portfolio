@@ -22,7 +22,7 @@ function App() {
         }
     ]);
 
-    const [currentSection, setCurrentSection] = useState(sections[0])
+    const [currentSection, setCurrentSection] = useState(sections[0].name)
     return (
         <div>
             <Header
@@ -32,16 +32,23 @@ function App() {
             ></Header>
             <main>
                 <section>
-                    <About></About>
-                    <Contact></Contact>
-                    <Portfolio></Portfolio>
-                    <Resume></Resume>
+                    {currentSection === "About" ? (
+                        <About></About>
+
+                    ) : (
+                        <>
+                            <Contact></Contact>
+                            <Portfolio></Portfolio>
+                            <Resume></Resume>
+                        </>
+
+                    )}
                 </section>
             </main>
             <footer className='fixed-bottom'>
                 <Footer></Footer>
             </footer>
-        </div>
+        </div >
     )
 }
 
