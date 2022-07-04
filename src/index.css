@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F5D491;
+  background-color: #343d46;
+  color: white;
+  background: url("https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80");
 }
 
 code {
@@ -41,9 +43,10 @@ code {
   line-height: 60px;
   border-radius: 50%;
   color: #fff;
-  background-color: rgb(27, 27, 27);
+  background-color: transparent;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  border: 1px solid white;
 }
 
 .social-media-list li:after {
@@ -96,7 +99,7 @@ code {
 }
 
 .contactForm {
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 10px;
   border-radius: 10px;
 }
@@ -126,7 +129,6 @@ form label {
   width: 20rem;
   height: 20rem;
   line-height: 5.5rem;
-  border: solid 1px #ffffff;
   border-radius: 100%;
   margin: auto;
 }
@@ -147,6 +149,7 @@ form label {
   border-top-width: 1px;
   border-bottom-width: 1px;
   max-width: 100%;
+  margin-bottom: 5px;
 }
 
 .content .inner {
@@ -221,14 +224,16 @@ form label {
 .projectDiv {
   margin: auto;
   margin-bottom: 20px;
-  border: 1px solid black;
-  background-color: #C9D7F8;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 5% 5% 0% 0%;
 }
 
 .projectName {
   text-align: center;
   font-size: 1.5rem;
   text-decoration: underline;
+  color: white;
 }
 
 .projectImg {
@@ -237,26 +242,21 @@ form label {
 
 .techStack {
   text-decoration: underline;
+  color: white;
 }
 
-
-
-
-
-.gradient-border:hover {
-
-  background: linear-gradient(60deg,
-      hsl(224, 85%, 66%),
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%));
-  background-size: 300% 300%;
-  background-position: 0 50%;
-  border-radius: calc(2 * var(--border-width));
-  animation: moveGradient 1s alternate infinite;
+.techStackDiv {
+  color: white;
+  margin-bottom: 5px;
 }
 
+.deployedText {
+  color: white;
+}
 
+.githubText {
+  color: white;
+}
 
 @media screen and (max-width: 768px) {
   .pageTitle h1 {

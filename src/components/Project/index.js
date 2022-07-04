@@ -14,7 +14,7 @@ function Project() {
             image: projectimg1,
             deployed: 'https://murmuring-harbor-62394.herokuapp.com/',
             github: 'https://github.com/Charanvir/Budget-Tracker',
-            techStack: ['PWA, ', 'IndexedDB, ', 'MongoDB, ', 'Mongoose, ', 'NoSQL, ', 'Express, ', 'Service Workers']
+            techStack: ['PWA, ', 'IndexedDB, ', 'MongoDB, ', 'Mongoose, ', 'Express, ', 'Service Workers']
         },
 
         {
@@ -25,11 +25,11 @@ function Project() {
             techStack: ['Express, ', 'Service Workers, ', 'IndexedDB, ', 'Webpack, ', 'PWA']
         },
         {
-            name: 'The Charanvir Network',
-            image: projectimg2,
-            deployed: 'https://vimeo.com/722839360',
-            github: 'https://github.com/Charanvir/The-Charanvir-Network',
-            techStack: ['Express, ', 'MongoDB, ', 'Mongoose, ', "NoSQL"]
+            name: 'Weather Dashboard',
+            image: projectimg8,
+            deployed: 'https://charanvir.github.io/Weather-Dashboard/',
+            github: 'https://github.com/Charanvir/Weather-Dashboard',
+            techStack: ["HTML, ", "CSS, ", "JavaScript, ", "API, "]
         },
         {
             name: 'Photo Port',
@@ -60,29 +60,30 @@ function Project() {
             techStack: ['JavaScript, ', 'Jest, ', 'Inquirer, ', "MySQL "]
         },
         {
-            name: 'Weather Dashboard',
-            image: projectimg8,
-            deployed: 'https://charanvir.github.io/Weather-Dashboard/',
-            github: 'https://github.com/Charanvir/Weather-Dashboard',
-            techStack: ["HTML, ", "CSS, ", "JavaScript, ", "API, "]
+            name: 'The Charanvir Network',
+            image: projectimg2,
+            deployed: 'https://vimeo.com/722839360',
+            github: 'https://github.com/Charanvir/The-Charanvir-Network',
+            techStack: ['Express, ', 'MongoDB, ', 'Mongoose, ', "NoSQL"]
         },
+
     ]
     return (
         <div className='row'>
             {projects.map((project) => {
                 return (
                     <div key={project.name} className="card col-md-5 col-10 projectDiv" >
-                        <div className="card-body">
+                        <div className="card-body projectTitle">
                             <p className="card-text projectName">{project.name}</p>
                         </div>
                         <div className='projectImg'>
-                            <img className='projectImageID gradient-border' src={project.image} alt={project.name}></img>
+                            <img className='projectImageID' src={project.image} alt={project.name}></img>
                             <div className='imageOverlay'>
-                                <a href={project.deployed} className='imageOverlayDeployed'>Deployed Application</a>
+                                <a href={project.deployed} className='deployedText'>Deployed Application</a>
                                 <br></br>
-                                <a href={project.github} className='imageOverlayGithub'>GitHub Repository</a>
-                                <div>
-                                    <span className='techStack'>Tech Stack: </span>{project.techStack}
+                                <a href={project.github} className='githubText'>GitHub Repository</a>
+                                <div className='techStackDiv'>
+                                    <span className='techStack'>Tech Stack Used: </span>{project.techStack}
                                 </div>
 
                             </div>
