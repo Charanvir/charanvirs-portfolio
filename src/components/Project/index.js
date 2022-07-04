@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import projectimg1 from '../../assets/images/projectImages/BudgetTracker.png'
 import projectimg2 from '../../assets/images/projectImages/CharanvirNetwork.png'
 import projectimg3 from '../../assets/images/projectImages/dEvCommerce.png'
@@ -7,7 +7,13 @@ import projectimg5 from '../../assets/images/projectImages/FoodFestival.png'
 import projectimg6 from '../../assets/images/projectImages/PhotoPort.png'
 import projectimg7 from '../../assets/images/projectImages/TechBlog.png'
 import projectimg8 from '../../assets/images/projectImages/WeatherDashboard.png'
+import Aos from 'aos';
+import "aos/dist/aos.css"
+
 function Project() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, [])
     const projects = [
         {
             name: 'Budget Tracker',
@@ -72,7 +78,7 @@ function Project() {
         <div className='row'>
             {projects.map((project) => {
                 return (
-                    <div key={project.name} className="card col-md-5 col-10 projectDiv" >
+                    <div data-aos="flip-up" key={project.name} className="card col-md-5 col-10 projectDiv animation" >
                         <div className="card-body projectTitle">
                             <p className="card-text projectName">{project.name}</p>
                         </div>
