@@ -212,6 +212,40 @@ form label {
   border-radius: 16px;
 }
 
+.projectImageID {
+  width: 100%;
+  height: 100%;
+  border: 5px solid black;
+}
+
+.projectDiv {
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.projectName {
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.projectImg {
+  position: relative;
+}
+
+/* .imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+} */
 
 
 
