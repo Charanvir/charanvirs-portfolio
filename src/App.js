@@ -12,10 +12,10 @@ function App() {
             name: 'About',
         },
         {
-            name: 'Contact',
+            name: 'Portfolio',
         },
         {
-            name: 'Portfolio',
+            name: 'Contact',
         },
         {
             name: 'Resume',
@@ -24,25 +24,25 @@ function App() {
 
     const [currentSection, setCurrentSection] = useState(sections[0].name)
     return (
-        <div>
+        <div className='pageContainer'>
             <Header
                 sections={sections}
                 currentSection={currentSection}
                 setCurrentSection={setCurrentSection}
             ></Header>
-            <main>
+            <main className='contentWrapper'>
                 {(() => {
                     if (currentSection === 'About') {
                         return (
                             <div><About></About></div>
                         )
-                    } else if (currentSection === "Contact") {
-                        return (
-                            <div><Contact></Contact></div>
-                        )
                     } else if (currentSection === "Portfolio") {
                         return (
                             <div><Portfolio></Portfolio></div>
+                        )
+                    } else if (currentSection === "Contact") {
+                        return (
+                            <div><Contact></Contact></div>
                         )
                     } else if (currentSection === "Resume") {
                         return (
@@ -51,7 +51,7 @@ function App() {
                     }
                 })()}
             </main>
-            <footer className='fixed-bottom'>
+            <footer className='footerWrapper'>
                 <Footer></Footer>
             </footer>
         </div >

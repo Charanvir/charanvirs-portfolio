@@ -5,7 +5,6 @@ function Contact() {
     const [errorMessage, setErrorMessage] = useState("")
     function submitFunction(e) {
         e.preventDefault();
-        alert("Message Sent!")
     }
     function checkInput(e) {
         if (e.target.name === "email") {
@@ -55,7 +54,7 @@ function Contact() {
                     <div>{errorMessage}</div>
                 )}
                 <div>
-                    <input type="submit" value="Submit"></input >
+                    <input className='submitButton' type="submit" value="Submit"></input >
                 </div>
             </form>
             <div className='mt-5'>
