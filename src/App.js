@@ -31,19 +31,25 @@ function App() {
                 setCurrentSection={setCurrentSection}
             ></Header>
             <main>
-                <section>
-                    {currentSection === "About" ? (
-                        <About></About>
-
-                    ) : (
-                        <>
-                            <Contact></Contact>
-                            <Portfolio></Portfolio>
-                            <Resume></Resume>
-                        </>
-
-                    )}
-                </section>
+                {(() => {
+                    if (currentSection === 'About') {
+                        return (
+                            <div><About></About></div>
+                        )
+                    } else if (currentSection === "Contact") {
+                        return (
+                            <div><Contact></Contact></div>
+                        )
+                    } else if (currentSection === "Portfolio") {
+                        return (
+                            <div><Portfolio></Portfolio></div>
+                        )
+                    } else if (currentSection === "Resume") {
+                        return (
+                            <div><Resume></Resume></div>
+                        )
+                    }
+                })()}
             </main>
             <footer className='fixed-bottom'>
                 <Footer></Footer>

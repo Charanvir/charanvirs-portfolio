@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.headerClass {
+  background-color: beige;
+}
+
 .social-media-list {
   position: relative;
   font-size: 22px;
@@ -36,7 +40,7 @@ code {
   color: #fff;
   background-color: rgb(27, 27, 27);
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .social-media-list li:after {
@@ -49,10 +53,12 @@ code {
   border-radius: 50%;
   opacity: 0;
   box-shadow: 0 0 0 1px #fff;
-  transition: all .2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .social-media-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   background-color: #fff;
 }
 
@@ -72,5 +78,11 @@ code {
 }
 
 .navLinks:hover {
+  transform: translateY(-5px);
   text-decoration: none;
+}
+
+.selectedNav {
+  font-weight: bold;
+  font-size: larger;
 }

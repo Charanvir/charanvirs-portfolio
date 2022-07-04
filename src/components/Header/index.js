@@ -10,20 +10,20 @@ function Header(props) {
 
 
     return (
-        <div>
-            <header className='px-1 mt-3'>
+        <div className='mb-3 headerClass'>
+            <header className='px-1 py-3'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-3 text-start'>
+                        <div className='col-12 col-md-3 text-start'>
                             <h1>Charanvir</h1>
                         </div>
-                        <div className='col-9 text-center container'>
+                        <nav className='col-12 col-md-6 text-center container'>
                             <Navigation
                                 sections={sections}
                                 currentSection={currentSection}
                                 setCurrentSection={setCurrentSection}
                             ></Navigation>
-                        </div>
+                        </nav>
                     </div>
                 </div>
             </header>
