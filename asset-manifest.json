@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.924fc408.css",
+    "main.js": "/static/js/main.5860fd46.js",
+    "static/js/787.5203fe8c.chunk.js": "/static/js/787.5203fe8c.chunk.js",
+    "static/media/PhotoPort.png": "/static/media/PhotoPort.ec1ded0a0ab0e8e6dbc2.png",
+    "static/media/FoodFestival.png": "/static/media/FoodFestival.267cb5e970220b2cebaf.png",
+    "static/media/me.jpeg": "/static/media/me.ca828289d21a8f427b67.jpeg",
+    "static/media/WeatherDashboard.png": "/static/media/WeatherDashboard.e33e011828a18dc26f24.png",
+    "static/media/EmployeeTracker.png": "/static/media/EmployeeTracker.04b93281afbef581083d.png",
+    "static/media/CharanvirNetwork.png": "/static/media/CharanvirNetwork.ae08075d01a2c4c014a2.png",
+    "static/media/TechBlog.png": "/static/media/TechBlog.03cd4a13122340c551b9.png",
+    "static/media/dEvCommerce.png": "/static/media/dEvCommerce.5ac2c5dba5251b161fee.png",
+    "static/media/BudgetTracker.png": "/static/media/BudgetTracker.2a195cefbb0ca4cf84a3.png",
+    "index.html": "/index.html",
+    "main.924fc408.css.map": "/static/css/main.924fc408.css.map",
+    "main.5860fd46.js.map": "/static/js/main.5860fd46.js.map",
+    "787.5203fe8c.chunk.js.map": "/static/js/787.5203fe8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.924fc408.css",
+    "static/js/main.5860fd46.js"
+  ]
+}
