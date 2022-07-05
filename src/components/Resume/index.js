@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import FrontEnd from './components/frontend'
 import BackEnd from './components/backend';
+import resume from '../../assets/Charanvir Resume.pdf'
 
 
 
@@ -12,7 +13,7 @@ function Resume() {
     return (
         <div className='resumePage'>
             <div className='resumeSection'>
-                <p>View my resume via the following link: </p>
+                <p>View my resume via the following link: <a rel='noreferrer' target="_blank" href={resume}>Resume</a></p>
             </div>
             <div className='skillSection row'>
                 <div className='frontEnd col-6'>

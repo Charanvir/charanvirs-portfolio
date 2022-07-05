@@ -290,6 +290,10 @@ form label {
   font-size: 20px;
 }
 
+.resumeSection a {
+  color: #F5D491;
+}
+
 .frontEnd {
   text-align: center;
   font-family: 'Playfair Display', serif;
