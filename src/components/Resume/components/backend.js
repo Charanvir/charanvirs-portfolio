@@ -5,10 +5,58 @@ function BackEnd(props) {
         setBackEndSelected
     } = props
 
+    const backEndSkills = [
+        {
+            name: "Node.js"
+        },
+        {
+            name: "Express"
+        },
+        {
+            name: "SQL"
+        },
+        {
+            name: "MYSQL"
+        },
+        {
+            name: "Sequelize"
+        },
+        {
+            name: "NoSQL"
+        },
+        {
+            name: "Progressive Web Applications"
+        },
+        {
+            name: "Mongoose"
+        },
+        {
+            name: "MongoDB"
+        },
+        {
+            name: "Jest"
+        },
+        {
+            name: "Service Workers"
+        },
+        {
+            name: "IndexedDB"
+        },
+        {
+            name: "Insomnia"
+        },
+    ]
+
     return (
         <div>
-            <p>Back End</p>
-            <button onClick={(() => { setBackEndSelected(false) })}>Close</button>
+            <ul className='backEndSection'>
+                {backEndSkills.map((skill) => {
+                    return (
+                        <li className='skillList' key={skill.name}>{skill.name}</li>
+                    )
+                })}
+            </ul>
+            <button className='backEndCloseButton' onClick={(() => { setBackEndSelected(false) })}>Close</button>
         </div>
     )
 }

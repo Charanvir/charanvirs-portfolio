@@ -5,10 +5,40 @@ function FrontEnd(props) {
         setFrontEndSelected
     } = props
 
+    const frontEndSkills = [
+        {
+            name: "HTML"
+        },
+        {
+            name: "CSS"
+        },
+        {
+            name: "JavaScript"
+        },
+        {
+            name: "React"
+        },
+        {
+            name: "APIs"
+        },
+        {
+            name: "Bootstrap"
+        },
+        {
+            name: "jQuery"
+        }
+    ]
+
     return (
         <div>
-            <p>Front End</p>
-            <button onClick={(() => { setFrontEndSelected(false) })}>Close</button>
+            <ul className='frontEndSection'>
+                {frontEndSkills.map((skill) => {
+                    return (
+                        <li className='skillList' key={skill.name}>{skill.name}</li>
+                    )
+                })}
+            </ul>
+            <button className='frontEndCloseButton' onClick={(() => { setFrontEndSelected(false) })}>Close</button>
         </div>
     )
 }

@@ -199,7 +199,7 @@ form label {
 }
 
 .submitButton {
-  background-color: #F9B9B7;
+  background-color: #F5D491;
   border: none;
   color: black;
   padding: 10px 20px;
@@ -265,16 +265,57 @@ form label {
   text-align: center;
 }
 
-.frontEnd button {}
+.frontEnd button {
+  background-color: #F5D491;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
 
 .backEnd {
   text-align: center;
 }
 
-.backEnd button {}
+.backEnd button {
+  background-color: #F5D491;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
 
 .resumeLink {
   color: #F5D491;
+}
+
+.skillList {
+  list-style: none;
+  color: #F5D491;
+}
+
+.backEndSection {
+  border: 1px solid #F5D491;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.frontEndSection {
+  border: 1px solid #F5D491;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 768px) {
