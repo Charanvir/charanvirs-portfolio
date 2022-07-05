@@ -9,7 +9,7 @@ function About() {
             </div>
             <div className="content mt-3">
                 <div className="inner">
-                    <h1>Charanvir Singh</h1>
+                    <h2>Charanvir Singh</h2>
                     <p>Junior Full Stack Developer</p>
                 </div>
             </div>
