@@ -21,7 +21,7 @@ body {
 }
 
 .social-media-list li a {
-  color: #F9B9B7;
+  color: #F5D491;
 }
 
 .social-media-list li {
@@ -278,6 +278,11 @@ form label {
   border-radius: 16px;
 }
 
+.frontEnd button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #C9D7F8;
+}
+
 .backEnd {
   text-align: center;
 }
@@ -293,6 +298,11 @@ form label {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
+}
+
+.backEnd button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #C9D7F8;
 }
 
 .resumeLink {
