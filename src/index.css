@@ -1,3 +1,10 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
 body {
   margin: 0;
   background-color: #343d46;
@@ -8,7 +15,6 @@ body {
 .headerClass {
   background: url('https://wallpapercave.com/wp/LYnrrzN.png') no-repeat;
   background-size: 100% 100%;
-
 }
 
 .social-media-list {
@@ -72,6 +78,8 @@ body {
   text-decoration: underline;
   list-style: none;
   color: #F5D491;
+  font-family: 'Playfair Display', serif;
+
 }
 
 .navLinks:hover {
@@ -86,6 +94,8 @@ body {
 
 .contactDiv {
   width: 75%;
+  color: #F5D491;
+  font-family: 'Playfair Display', serif;
 }
 
 .contactForm {
@@ -150,10 +160,13 @@ form label {
 
 .content .inner h2 {
   font-size: 50px;
+  color: #F5D491;
+  font-family: 'Playfair Display', serif;
 }
 
 .content .inner p {
   font-size: 20px;
+  color: #F5D491;
 }
 
 .content .inner> :last-child {
@@ -165,6 +178,7 @@ form label {
   letter-spacing: 0.2rem;
   font-size: 0.8rem;
   line-height: 2;
+  font-family: 'Playfair Display', serif;
 }
 
 .aboutMeParagraph {
@@ -172,6 +186,9 @@ form label {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #F5D491;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
 }
 
 .pageContainer {
@@ -196,6 +213,12 @@ form label {
 
 .pageTitle h1 {
   font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.portfolioTitle {
+  color: #F5D491;
+  font-family: 'Playfair Display', serif;
 }
 
 .submitButton {
@@ -223,13 +246,14 @@ form label {
   border: 1px solid white;
   background-color: transparent;
   border-radius: 5% 5% 0% 0%;
+  font-family: 'Playfair Display', serif;
 }
 
 .projectName {
   text-align: center;
   font-size: 1.5rem;
   text-decoration: underline;
-  color: white;
+  color: #F5D491;
 }
 
 .projectImg {
@@ -238,20 +262,20 @@ form label {
 
 .techStack {
   text-decoration: underline;
-  color: white;
+  color: #F5D491;
 }
 
 .techStackDiv {
-  color: white;
+  color: #F5D491;
   margin-bottom: 5px;
 }
 
 .deployedText {
-  color: white;
+  color: #F5D491;
 }
 
 .githubText {
-  color: white;
+  color: #F5D491;
 }
 
 .resumeSection {
@@ -259,10 +283,16 @@ form label {
   margin-bottom: 50px;
   margin-top: 50px;
   color: #F5D491;
+  font-family: 'Playfair Display', serif;
+}
+
+.resumeSection p {
+  font-size: 20px;
 }
 
 .frontEnd {
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .frontEnd button {
@@ -276,6 +306,7 @@ form label {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
+  font-size: 20px;
 }
 
 .frontEnd button:hover {
@@ -285,6 +316,7 @@ form label {
 
 .backEnd {
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .backEnd button {
@@ -298,6 +330,8 @@ form label {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
+  font-size: 20px;
+
 }
 
 .backEnd button:hover {
