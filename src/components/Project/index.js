@@ -47,7 +47,7 @@ function Project() {
         {
             name: 'dEv Commerce',
             image: projectimg3,
-            deployed: 'https://peaceful-fortress-78304.herokuapp.com/',
+            deployed: 'https://infinite-shore-33919.herokuapp.com/',
             github: 'https://github.com/Charanvir/E-Commerce-Website',
             techStack: ["Express, ", "BootStrap, ", "Handlebars.js, ", 'MySQL, ', 'Sequelize, ', "Bcrypt"]
         },
