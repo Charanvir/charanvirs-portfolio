@@ -45,6 +45,9 @@ function BackEnd(props) {
         {
             name: "Insomnia"
         },
+        {
+            name: "GraphQL"
+        }
     ]
 
     return (
