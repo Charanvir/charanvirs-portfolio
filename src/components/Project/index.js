@@ -7,6 +7,7 @@ import projectimg5 from '../../assets/images/projectImages/FoodFestival.png'
 import projectimg6 from '../../assets/images/projectImages/PhotoPort.png'
 import projectimg7 from '../../assets/images/projectImages/TechBlog.png'
 import projectimg8 from '../../assets/images/projectImages/WeatherDashboard.png'
+import projectimg9 from '../../assets/images/projectImages/cineflex.png'
 import Aos from 'aos';
 import "aos/dist/aos.css"
 
@@ -22,6 +23,14 @@ function Project() {
             github: 'https://github.com/Charanvir/Budget-Tracker',
             techStack: ['PWA, ', 'IndexedDB, ', 'MongoDB, ', 'Mongoose, ', 'Express, ', 'Service Workers'],
             purpose: 'Helps users create a budget and keep track of income and expencses. Displays a visual representation of their savings/expenditures.'
+        },
+        {
+            name: 'Cineflex',
+            image: projectimg9,
+            deployed: 'https://frozen-oasis-34307.herokuapp.com/',
+            github: 'https://github.com/Project3MERN/Project-3-MERN',
+            techStack: ['MERN, ', 'React, ', 'MongoDB, ', 'Service Workers, ', 'PWA'],
+            purpose: 'Cineflex is a social media platform for movie reviews. Leave reviews on popular movies and comment on others reviews'
         },
 
         {
