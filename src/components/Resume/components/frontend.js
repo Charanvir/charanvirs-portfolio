@@ -26,6 +26,12 @@ function FrontEnd(props) {
         },
         {
             name: "jQuery"
+        },
+        {
+            name: 'Typescript'
+        },
+        {
+            name: 'Next.JS'
         }
     ]
 

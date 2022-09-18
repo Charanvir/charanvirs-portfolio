@@ -47,6 +47,9 @@ function BackEnd(props) {
         },
         {
             name: "GraphQL"
+        },
+        {
+            name: 'Postgres'
         }
     ]
 
