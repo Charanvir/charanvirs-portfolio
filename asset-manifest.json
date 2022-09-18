@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/charanvirs-portfolio/static/css/main.d5899d96.css",
-    "main.js": "/charanvirs-portfolio/static/js/main.eaf459d3.js",
+    "main.js": "/charanvirs-portfolio/static/js/main.497de63e.js",
     "static/js/787.5203fe8c.chunk.js": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js",
     "static/media/PhotoPort.png": "/charanvirs-portfolio/static/media/PhotoPort.ec1ded0a0ab0e8e6dbc2.png",
     "static/media/FoodFestival.png": "/charanvirs-portfolio/static/media/FoodFestival.267cb5e970220b2cebaf.png",
     "static/media/me.jpeg": "/charanvirs-portfolio/static/media/me.ca828289d21a8f427b67.jpeg",
-    "static/media/Charanvir Resume.pdf": "/charanvirs-portfolio/static/media/Charanvir Resume.1373525a82c00a1e373b.pdf",
+    "static/media/Charanvir Resume.pdf": "/charanvirs-portfolio/static/media/Charanvir Resume.f7db3f65fa600290cf5c.pdf",
     "static/media/WeatherDashboard.png": "/charanvirs-portfolio/static/media/WeatherDashboard.e33e011828a18dc26f24.png",
     "static/media/cineflex.png": "/charanvirs-portfolio/static/media/cineflex.a2cc50c3673d78986338.png",
     "static/media/EmployeeTracker.png": "/charanvirs-portfolio/static/media/EmployeeTracker.04b93281afbef581083d.png",
@@ -16,11 +16,11 @@
     "static/media/BudgetTracker.png": "/charanvirs-portfolio/static/media/BudgetTracker.2a195cefbb0ca4cf84a3.png",
     "index.html": "/charanvirs-portfolio/index.html",
     "main.d5899d96.css.map": "/charanvirs-portfolio/static/css/main.d5899d96.css.map",
-    "main.eaf459d3.js.map": "/charanvirs-portfolio/static/js/main.eaf459d3.js.map",
+    "main.497de63e.js.map": "/charanvirs-portfolio/static/js/main.497de63e.js.map",
     "787.5203fe8c.chunk.js.map": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5899d96.css",
-    "static/js/main.eaf459d3.js"
+    "static/js/main.497de63e.js"
   ]
 }
