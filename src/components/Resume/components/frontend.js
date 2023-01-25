@@ -32,6 +32,9 @@ function FrontEnd(props) {
         },
         {
             name: 'Next.JS'
+        },
+        {
+            name: "Streamlit"
         }
     ]
 

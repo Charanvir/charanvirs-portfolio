@@ -7,6 +7,12 @@ function BackEnd(props) {
 
     const backEndSkills = [
         {
+            name: "Python"
+        },
+        {
+            name: "Flask"
+        },
+        {
             name: "Node.js"
         },
         {
@@ -50,6 +56,9 @@ function BackEnd(props) {
         },
         {
             name: 'Postgres'
+        },
+        {
+            name: "Pandas"
         }
     ]
 
