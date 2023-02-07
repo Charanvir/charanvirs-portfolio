@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/charanvirs-portfolio/static/css/main.d5899d96.css",
-    "main.js": "/charanvirs-portfolio/static/js/main.57d7d8ac.js",
+    "main.js": "/charanvirs-portfolio/static/js/main.0a1a81e3.js",
     "static/js/787.5203fe8c.chunk.js": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js",
     "static/media/PhotoPort.png": "/charanvirs-portfolio/static/media/PhotoPort.ec1ded0a0ab0e8e6dbc2.png",
     "static/media/FoodFestival.png": "/charanvirs-portfolio/static/media/FoodFestival.267cb5e970220b2cebaf.png",
@@ -16,11 +16,11 @@
     "static/media/BudgetTracker.png": "/charanvirs-portfolio/static/media/BudgetTracker.2a195cefbb0ca4cf84a3.png",
     "index.html": "/charanvirs-portfolio/index.html",
     "main.d5899d96.css.map": "/charanvirs-portfolio/static/css/main.d5899d96.css.map",
-    "main.57d7d8ac.js.map": "/charanvirs-portfolio/static/js/main.57d7d8ac.js.map",
+    "main.0a1a81e3.js.map": "/charanvirs-portfolio/static/js/main.0a1a81e3.js.map",
     "787.5203fe8c.chunk.js.map": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5899d96.css",
-    "static/js/main.57d7d8ac.js"
+    "static/js/main.0a1a81e3.js"
   ]
 }
