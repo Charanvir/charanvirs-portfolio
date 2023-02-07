@@ -13,7 +13,8 @@ function Resume() {
     return (
         <div className='resumePage'>
             <div className='resumeSection'>
-                <p>View my resume via the following link: <a rel='noreferrer' target="_blank" href={resume}>Resume</a></p>
+                <p>View my resume via the following link: <a rel='noreferrer noopener' target="_blank" href={resume}>Resume</a></p>
+                <p>View my Python projects portfolio via the following link. <a rel='noreferrer noopener' target="_blank" href='https://charanvir-python-portfolio-home-gyb486.streamlit.app/'>Python Projects</a></p>
             </div>
             <div className='skillSection row'>
                 <div className='frontEnd col-6'>
