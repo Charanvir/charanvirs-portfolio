@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/charanvirs-portfolio/static/css/main.d5899d96.css",
-    "main.js": "/charanvirs-portfolio/static/js/main.7d50b530.js",
+    "main.js": "/charanvirs-portfolio/static/js/main.a064ec24.js",
     "static/js/787.5203fe8c.chunk.js": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js",
-    "static/media/PhotoPort.png": "/charanvirs-portfolio/static/media/PhotoPort.ec1ded0a0ab0e8e6dbc2.png",
-    "static/media/FoodFestival.png": "/charanvirs-portfolio/static/media/FoodFestival.267cb5e970220b2cebaf.png",
+    "static/media/farloSoftball.png": "/charanvirs-portfolio/static/media/farloSoftball.37999f1dd55581230561.png",
     "static/media/me.jpeg": "/charanvirs-portfolio/static/media/me.ca828289d21a8f427b67.jpeg",
+    "static/media/soccerStadium.png": "/charanvirs-portfolio/static/media/soccerStadium.437c532a54b59807b4e2.png",
     "static/media/Charanvir Resume.pdf": "/charanvirs-portfolio/static/media/Charanvir Resume.0a4dc76258ad42dc7f13.pdf",
-    "static/media/WeatherDashboard.png": "/charanvirs-portfolio/static/media/WeatherDashboard.e33e011828a18dc26f24.png",
     "static/media/cineflex.png": "/charanvirs-portfolio/static/media/cineflex.a2cc50c3673d78986338.png",
     "static/media/EmployeeTracker.png": "/charanvirs-portfolio/static/media/EmployeeTracker.04b93281afbef581083d.png",
+    "static/media/mlbStats.png": "/charanvirs-portfolio/static/media/mlbStats.09b5ddd594235fba7f4d.png",
     "static/media/CharanvirNetwork.png": "/charanvirs-portfolio/static/media/CharanvirNetwork.ae08075d01a2c4c014a2.png",
-    "static/media/TechBlog.png": "/charanvirs-portfolio/static/media/TechBlog.03cd4a13122340c551b9.png",
     "static/media/dEvCommerce.png": "/charanvirs-portfolio/static/media/dEvCommerce.5ac2c5dba5251b161fee.png",
     "static/media/BudgetTracker.png": "/charanvirs-portfolio/static/media/BudgetTracker.2a195cefbb0ca4cf84a3.png",
+    "static/media/dragAndDrop.png": "/charanvirs-portfolio/static/media/dragAndDrop.e974d8f6bd57ec6fea5b.png",
     "index.html": "/charanvirs-portfolio/index.html",
     "main.d5899d96.css.map": "/charanvirs-portfolio/static/css/main.d5899d96.css.map",
-    "main.7d50b530.js.map": "/charanvirs-portfolio/static/js/main.7d50b530.js.map",
+    "main.a064ec24.js.map": "/charanvirs-portfolio/static/js/main.a064ec24.js.map",
     "787.5203fe8c.chunk.js.map": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5899d96.css",
-    "static/js/main.7d50b530.js"
+    "static/js/main.a064ec24.js"
   ]
 }
