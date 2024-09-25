@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/charanvirs-portfolio/static/css/main.d5899d96.css",
-    "main.js": "/charanvirs-portfolio/static/js/main.99c8bdc2.js",
+    "main.js": "/charanvirs-portfolio/static/js/main.c7e7e9da.js",
     "static/js/787.5203fe8c.chunk.js": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js",
     "static/media/farloSoftball.png": "/charanvirs-portfolio/static/media/farloSoftball.37999f1dd55581230561.png",
-    "static/media/me.jpeg": "/charanvirs-portfolio/static/media/me.ca828289d21a8f427b67.jpeg",
     "static/media/soccerStadium.png": "/charanvirs-portfolio/static/media/soccerStadium.437c532a54b59807b4e2.png",
+    "static/media/me.jpeg": "/charanvirs-portfolio/static/media/me.7632ee9f1987f7feeab5.jpeg",
     "static/media/Charanvir Resume.pdf": "/charanvirs-portfolio/static/media/Charanvir Resume.fe7256a708480c6a413f.pdf",
     "static/media/cineflex.png": "/charanvirs-portfolio/static/media/cineflex.a2cc50c3673d78986338.png",
     "static/media/EmployeeTracker.png": "/charanvirs-portfolio/static/media/EmployeeTracker.04b93281afbef581083d.png",
@@ -16,11 +16,11 @@
     "static/media/dragAndDrop.png": "/charanvirs-portfolio/static/media/dragAndDrop.e974d8f6bd57ec6fea5b.png",
     "index.html": "/charanvirs-portfolio/index.html",
     "main.d5899d96.css.map": "/charanvirs-portfolio/static/css/main.d5899d96.css.map",
-    "main.99c8bdc2.js.map": "/charanvirs-portfolio/static/js/main.99c8bdc2.js.map",
+    "main.c7e7e9da.js.map": "/charanvirs-portfolio/static/js/main.c7e7e9da.js.map",
     "787.5203fe8c.chunk.js.map": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5899d96.css",
-    "static/js/main.99c8bdc2.js"
+    "static/js/main.c7e7e9da.js"
   ]
 }
