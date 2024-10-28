@@ -180,11 +180,15 @@ form label {
 
 .content {
   border-style: solid;
-  border-color: #ffffff;
-  border-top-width: 1px;
-  border-bottom-width: 1px;
+  border-color: #f5f5dc;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
   max-width: 100%;
   margin-bottom: 5px;
+}
+
+body.light-mode .content {
+  border-color: #343d46;
 }
 
 .content .inner {
@@ -199,9 +203,17 @@ form label {
   font-family: "Playfair Display", serif;
 }
 
+body.light-mode .content .inner h2 {
+  color: #343d46;
+}
+
 .content .inner p {
   font-size: 20px;
   color: #f5d491;
+}
+
+body.light-mode .content .inner p {
+  color: #343d46;
 }
 
 .content .inner > :last-child {
@@ -224,6 +236,10 @@ form label {
   color: #f5d491;
   font-size: 18px;
   font-family: "Playfair Display", serif;
+}
+
+body.light-mode .aboutMeParagraph {
+  color: #343d46;
 }
 
 .pageContainer {
