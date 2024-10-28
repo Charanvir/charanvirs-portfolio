@@ -7,14 +7,26 @@ font-family: 'Roboto', sans-serif;
 
 body {
   margin: 0;
-  background-color: #343d46;
-  color: white;
-  background: url("https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80");
+  font-family: "Playfair Display", serif;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.headerClass {
-  background: url('https://wallpapercave.com/wp/LYnrrzN.png') no-repeat;
-  background-size: 100% 100%;
+body.light-mode {
+  background-color: #f5f5dc;
+  color: #1a2f2f;
+}
+
+body.dark-mode {
+  background-color: #1a2f2f;
+  color: #f8f9fa !important;
+}
+
+body.dark-mode .navLinks {
+  color: #f8f9fa;
+}
+
+body.dark-mode .navLinks:hover {
+  color: #c9d7f8;
 }
 
 .social-media-list {
@@ -27,7 +39,7 @@ body {
 }
 
 .social-media-list li a {
-  color: #F5D491;
+  color: #f5d491;
 }
 
 .social-media-list li {
@@ -42,6 +54,10 @@ body {
   background-color: transparent;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  border: 1px solid #343d46;
+}
+
+body.dark-mode .social-media-list li {
   border: 1px solid white;
 }
 
@@ -61,7 +77,7 @@ body {
 .social-media-list li:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background-color: #C9D7F8;
+  background-color: #c9d7f8;
 }
 
 .social-media-list li:hover:after {
@@ -75,27 +91,46 @@ body {
 }
 
 .navLinks {
-  text-decoration: underline;
+  text-decoration: none;
   list-style: none;
-  color: #F5D491;
-  font-family: 'Playfair Display', serif;
-
+  color: inherit;
+  font-family: "Playfair Display", serif;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
 .navLinks:hover {
-  transform: translateY(-5px);
-  text-decoration: none;
+  color: #c9d7f8;
 }
 
 .selectedNav {
   font-weight: bold;
   font-size: larger;
+  color: #0a3d62;
+}
+
+body.dark-mode .selectedNav {
+  color: rgb(245, 212, 145);
+}
+
+.toggle-icon-button {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+.toggle-icon-button:hover {
+  transform: scale(1.2);
 }
 
 .contactDiv {
   width: 75%;
-  color: #F5D491;
-  font-family: 'Playfair Display', serif;
+  color: #f5d491;
+  font-family: "Playfair Display", serif;
 }
 
 .contactForm {
@@ -106,13 +141,13 @@ body {
 
 .input {
   width: 100%;
-  background-color: #C9D7F8;
+  background-color: #c9d7f8;
   border: none;
 }
 
 textarea {
   width: 100%;
-  background-color: #C9D7F8;
+  background-color: #c9d7f8;
   border: none;
 }
 
@@ -160,16 +195,16 @@ form label {
 
 .content .inner h2 {
   font-size: 50px;
-  color: #F5D491;
-  font-family: 'Playfair Display', serif;
+  color: #f5d491;
+  font-family: "Playfair Display", serif;
 }
 
 .content .inner p {
   font-size: 20px;
-  color: #F5D491;
+  color: #f5d491;
 }
 
-.content .inner> :last-child {
+.content .inner > :last-child {
   margin-bottom: 0;
 }
 
@@ -178,7 +213,7 @@ form label {
   letter-spacing: 0.2rem;
   font-size: 0.8rem;
   line-height: 2;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .aboutMeParagraph {
@@ -186,9 +221,9 @@ form label {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #F5D491;
+  color: #f5d491;
   font-size: 18px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .pageContainer {
@@ -208,21 +243,21 @@ form label {
 }
 
 .pageTitle {
-  color: #F5D491;
+  color: #f5d491;
 }
 
 .pageTitle h1 {
   font-size: 50px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .portfolioTitle {
-  color: #F5D491;
-  font-family: 'Playfair Display', serif;
+  color: #f5d491;
+  font-family: "Playfair Display", serif;
 }
 
 .submitButton {
-  background-color: #F5D491;
+  background-color: #f5d491;
   border: none;
   color: black;
   padding: 10px 20px;
@@ -246,14 +281,14 @@ form label {
   border: 1px solid white;
   background-color: transparent;
   border-radius: 5% 5% 0% 0%;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .projectName {
   text-align: center;
   font-size: 1.5rem;
   text-decoration: underline;
-  color: #F5D491;
+  color: #f5d491;
 }
 
 .projectImg {
@@ -262,28 +297,28 @@ form label {
 
 .techStack {
   text-decoration: underline;
-  color: #F5D491;
+  color: #f5d491;
 }
 
 .techStackDiv {
-  color: #F5D491;
+  color: #f5d491;
   margin-bottom: 5px;
 }
 
 .deployedText {
-  color: #F5D491;
+  color: #f5d491;
 }
 
 .githubText {
-  color: #F5D491;
+  color: #f5d491;
 }
 
 .resumeSection {
   margin-left: 50px;
   margin-bottom: 50px;
   margin-top: 50px;
-  color: #F5D491;
-  font-family: 'Playfair Display', serif;
+  color: #f5d491;
+  font-family: "Playfair Display", serif;
 }
 
 .resumeSection p {
@@ -291,16 +326,16 @@ form label {
 }
 
 .resumeSection a {
-  color: #F5D491;
+  color: #f5d491;
 }
 
 .frontEnd {
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .frontEnd button {
-  background-color: #F5D491;
+  background-color: #f5d491;
   border: none;
   color: black;
   padding: 10px 20px;
@@ -315,16 +350,16 @@ form label {
 
 .frontEnd button:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background-color: #C9D7F8;
+  background-color: #c9d7f8;
 }
 
 .backEnd {
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .backEnd button {
-  background-color: #F5D491;
+  background-color: #f5d491;
   border: none;
   color: black;
   padding: 10px 20px;
@@ -335,32 +370,31 @@ form label {
   cursor: pointer;
   border-radius: 16px;
   font-size: 20px;
-
 }
 
 .backEnd button:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background-color: #C9D7F8;
+  background-color: #c9d7f8;
 }
 
 .resumeLink {
-  color: #F5D491;
+  color: #f5d491;
 }
 
 .skillList {
   list-style: none;
-  color: #F5D491;
+  color: #f5d491;
 }
 
 .backEndSection {
-  border: 1px solid #F5D491;
+  border: 1px solid #f5d491;
   padding: 20px;
   margin-top: 10px;
   font-size: 20px;
 }
 
 .frontEndSection {
-  border: 1px solid #F5D491;
+  border: 1px solid #f5d491;
   padding: 20px;
   margin-top: 10px;
   font-size: 20px;
@@ -368,10 +402,7 @@ form label {
 
 @media screen and (min-width: 768px) {
   .projectDiv:hover {
-    box-shadow:
-      0 0 30px 15px #fff,
-      0 0 50px 30px #f0f,
-      0 0 70px 45px #0ff;
+    box-shadow: 0 0 30px 15px #fff, 0 0 50px 30px #f0f, 0 0 70px 45px #0ff;
   }
 
   .navLinks {
@@ -387,4 +418,9 @@ form label {
   .navLinks {
     font-size: 25px;
   }
+}
+
+/* Dark Icons for Light Mode */
+.dark-icon {
+  color: #1a2f2f !important;
 }
