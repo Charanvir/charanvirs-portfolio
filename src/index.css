@@ -420,75 +420,142 @@ body.dark-mode .portfolioTitle {
   color: #f5d491;
 }
 
-.frontEnd {
-  text-align: center;
-  font-family: "Playfair Display", serif;
+body.light-mode .resumeSection a {
+  color: #1a2f2f;
 }
 
-.frontEnd button {
+body.light-mode .resumeSection p {
+  color: #1a2f2f;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.skillButton {
   background-color: #f5d491;
+  color: #343d46;
+  padding: 1rem 2rem;
   border: none;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
+  border-radius: 8px;
+  font-size: 1.2rem;
   cursor: pointer;
-  border-radius: 16px;
-  font-size: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.frontEnd button:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background-color: #c9d7f8;
+.skillButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.backEnd {
+.skillsSection {
+  background: #1a2f2f;
+  color: #f5d491;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
-  font-family: "Playfair Display", serif;
 }
 
-.backEnd button {
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.skillItem {
+  background-color: #1a2f2f;
+  border: 1px solid #f5d491;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.skillDelay0 {
+  animation-delay: 0s;
+}
+
+.skillDelay1 {
+  animation-delay: 0.1s;
+}
+
+.skillDelay2 {
+  animation-delay: 0.2s;
+}
+
+.skillDelay3 {
+  animation-delay: 0.3s;
+}
+
+.skillDelay4 {
+  animation-delay: 0.4s;
+}
+
+.closeButton {
   background-color: #f5d491;
+  color: #343d46;
+  padding: 0.8rem 1.5rem;
   border: none;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
-  border-radius: 16px;
-  font-size: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.backEnd button:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background-color: #c9d7f8;
+.closeButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.resumeLink {
+body.light-mode .skillsSection,
+body.light-mode .skillItem {
+  background: #f5f5dc;
+  border-color: #1a2f2f;
+  color: #1a2f2f;
+}
+
+body.light-mode .skillButton {
+  background-color: #343d46;
   color: #f5d491;
 }
 
-.skillList {
-  list-style: none;
+body.light-mode .skillButton:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+body.light-mode .closeButton {
+  background-color: #343d46;
   color: #f5d491;
 }
 
-.backEndSection {
-  border: 1px solid #f5d491;
-  padding: 20px;
-  margin-top: 10px;
-  font-size: 20px;
-}
-
-.frontEndSection {
-  border: 1px solid #f5d491;
-  padding: 20px;
-  margin-top: 10px;
-  font-size: 20px;
+body.light-mode .closeButton:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (min-width: 768px) {
