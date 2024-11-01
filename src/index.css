@@ -268,8 +268,17 @@ body.light-mode .aboutMeParagraph {
 }
 
 .portfolioTitle {
-  color: #f5d491;
+  font-size: 2.5rem;
   font-family: "Playfair Display", serif;
+  transition: color 0.3s;
+}
+
+body.light-mode .portfolioTitle {
+  color: #343d46; /* Darker color for light mode */
+}
+
+body.dark-mode .portfolioTitle {
+  color: #f5d491; /* Lighter color for dark mode */
 }
 
 .submitButton {
@@ -285,40 +294,80 @@ body.light-mode .aboutMeParagraph {
   border-radius: 16px;
 }
 
-.projectImageID {
-  width: 100%;
-  height: 100%;
-  padding: 5px;
-}
-
-.projectDiv {
-  margin: auto;
-  margin-bottom: 50px;
-  border: 1px solid white;
-  background-color: transparent;
-  border-radius: 5% 5% 0% 0%;
-  font-family: "Playfair Display", serif;
-}
-
-.projectName {
-  text-align: center;
-  font-size: 1.5rem;
-  text-decoration: underline;
+.projectCard {
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #f5d491;
+  background-color: #1a2f2f;
   color: #f5d491;
+}
+
+.projectCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .projectImg {
   position: relative;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
 }
 
-.techStack {
+.projectImageID {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f5d491;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s;
+}
+
+.projectImg:hover .imageOverlay {
+  opacity: 1;
+}
+
+.overlayLink {
+  color: #f5d491;
+  margin: 8px 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.overlayLink:hover {
   text-decoration: underline;
-  color: #f5d491;
 }
 
-.techStackDiv {
+.projectDetails {
+  padding: 15px;
+  text-align: center;
+}
+
+.projectName {
+  font-size: 1.5rem;
   color: #f5d491;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+}
+
+.techStack,
+.projectPurpose {
+  font-size: 1rem;
+  margin-bottom: 8px;
 }
 
 .deployedText {

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import budgetTrackerImage from "../../assets/images/projectImages/BudgetTracker.png";
 import charanvirNetworkImage from "../../assets/images/projectImages/CharanvirNetwork.png";
 import devCommerceImage from "../../assets/images/projectImages/dEvCommerce.png";
@@ -9,13 +9,7 @@ import farloSoftball from "../../assets/images/projectImages/farloSoftball.png";
 import mlbStats from "../../assets/images/projectImages/mlbStats.png";
 import soccerStadium from "../../assets/images/projectImages/soccerStadium.png";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 function Project() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
   const projects = [
     {
       name: "Farlo Softball",
@@ -128,40 +122,32 @@ function Project() {
   ];
   return (
     <div className="row">
-      {projects.map((project) => {
-        return (
-          <div
-            data-aos="flip-up"
-            key={project.name}
-            className="card col-md-5 col-10 projectDiv animation"
-          >
-            <div className="card-body projectTitle">
-              <p className="card-text projectName">{project.name}</p>
-            </div>
-            <div className="projectImg">
-              <img
-                className="projectImageID"
-                src={project.image}
-                alt={project.name}
-              ></img>
-              <div className="imageOverlay">
-                <a href={project.deployed} className="deployedText">
-                  Deployed Application
-                </a>
-                <br></br>
-                <a href={project.github} className="githubText">
-                  GitHub Repository
-                </a>
-                <div className="techStackDiv">
-                  <span className="techStack">Tech Stack Used: </span>
-                  {project.techStack}
-                </div>
-                <span className="deployedText">{project.purpose}</span>
-              </div>
+      {projects.map((project) => (
+        <div key={project.name} className="card col-md-5 col-10 projectCard">
+          <div className="card-img-top projectImg">
+            <img
+              className="projectImageID"
+              src={project.image}
+              alt={project.name}
+            />
+            <div className="imageOverlay">
+              <a href={project.deployed} className="overlayLink">
+                Deployed Application
+              </a>
+              <a href={project.github} className="overlayLink">
+                GitHub Repository
+              </a>
             </div>
           </div>
-        );
-      })}
+          <div className="card-body projectDetails">
+            <h5 className="projectName">{project.name}</h5>
+            <p className="techStack">
+              <strong>Tech Stack:</strong> {project.techStack.join(", ")}
+            </p>
+            <p className="projectPurpose">{project.purpose}</p>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
