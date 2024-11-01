@@ -433,10 +433,12 @@ body.light-mode .resumeSection p {
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
+  align-items: center;
 }
 
 .buttonContainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
@@ -451,6 +453,8 @@ body.light-mode .resumeSection p {
   font-size: 1.2rem;
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
+  flex: 1 1 150px;
+  max-width: 200px;
 }
 
 .skillButton:hover {
@@ -466,11 +470,13 @@ body.light-mode .resumeSection p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
+  width: 100%;
+  max-width: 600px;
 }
 
 .skillGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
   padding: 1rem;
 }
@@ -483,6 +489,30 @@ body.light-mode .resumeSection p {
   transition: transform 0.3s, box-shadow 0.3s;
   opacity: 0;
   animation: fadeInUp 1s ease forwards;
+  width: 100%;
+  max-width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.closeButton {
+  background-color: #f5d491;
+  color: #343d46;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.closeButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes fadeInUp {
@@ -514,23 +544,6 @@ body.light-mode .resumeSection p {
 
 .skillDelay4 {
   animation-delay: 0.4s;
-}
-
-.closeButton {
-  background-color: #f5d491;
-  color: #343d46;
-  padding: 0.8rem 1.5rem;
-  border: none;
-  border-radius: 8px;
-  margin-top: 1.5rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.closeButton:hover {
-  transform: scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 body.light-mode .skillsSection,
@@ -575,6 +588,29 @@ body.light-mode .closeButton:hover {
 
   .navLinks {
     font-size: 25px;
+  }
+
+  .skillsContainer {
+    padding: 1rem;
+  }
+
+  .skillButton {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    max-width: 150px;
+  }
+
+  .skillGrid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .skillsSection {
+    padding: 1rem;
+  }
+
+  .closeButton {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
   }
 }
 
