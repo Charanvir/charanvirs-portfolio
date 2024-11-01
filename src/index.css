@@ -156,6 +156,32 @@ form label {
   font-weight: bold;
 }
 
+body.light-mode .contactDiv {
+  color: #343d46; /* Darker text for light mode */
+}
+
+body.light-mode .contactForm {
+  border: 1px solid #343d46; /* Darker border for light mode */
+  background-color: #f5f5dc; /* Lighter background for light mode */
+}
+
+body.light-mode .input,
+body.light-mode textarea {
+  background-color: #ffffff; /* White background for better readability */
+  color: #1a2f2f; /* Dark text color */
+  border: 1px solid #343d46; /* Darker border */
+}
+
+body.light-mode .submitButton {
+  background-color: #343d46; /* Darker button for contrast */
+  color: #f5f5dc; /* Light text on button */
+}
+
+body.light-mode .errorMessage,
+body.light-mode .submissionStatus {
+  color: #cc0000; /* Red color for error messages in light mode */
+}
+
 .hidden {
   display: none;
 }

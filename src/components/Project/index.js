@@ -131,10 +131,10 @@ function Project() {
               alt={project.name}
             />
             <div className="imageOverlay">
-              <a href={project.deployed} className="overlayLink">
+              <a href={project.deployed} target="blank" className="overlayLink">
                 Deployed Application
               </a>
-              <a href={project.github} className="overlayLink">
+              <a href={project.github} target="blank" className="overlayLink">
                 GitHub Repository
               </a>
             </div>
