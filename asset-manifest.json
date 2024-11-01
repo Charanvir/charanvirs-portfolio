@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/charanvirs-portfolio/static/css/main.7ec166c7.css",
-    "main.js": "/charanvirs-portfolio/static/js/main.af57d144.js",
+    "main.css": "/charanvirs-portfolio/static/css/main.949b998e.css",
+    "main.js": "/charanvirs-portfolio/static/js/main.a8dd8e81.js",
     "static/js/787.5203fe8c.chunk.js": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js",
     "static/media/farloSoftball.png": "/charanvirs-portfolio/static/media/farloSoftball.37999f1dd55581230561.png",
     "static/media/soccerStadium.png": "/charanvirs-portfolio/static/media/soccerStadium.437c532a54b59807b4e2.png",
@@ -15,12 +15,12 @@
     "static/media/BudgetTracker.png": "/charanvirs-portfolio/static/media/BudgetTracker.2a195cefbb0ca4cf84a3.png",
     "static/media/dragAndDrop.png": "/charanvirs-portfolio/static/media/dragAndDrop.e974d8f6bd57ec6fea5b.png",
     "index.html": "/charanvirs-portfolio/index.html",
-    "main.7ec166c7.css.map": "/charanvirs-portfolio/static/css/main.7ec166c7.css.map",
-    "main.af57d144.js.map": "/charanvirs-portfolio/static/js/main.af57d144.js.map",
+    "main.949b998e.css.map": "/charanvirs-portfolio/static/css/main.949b998e.css.map",
+    "main.a8dd8e81.js.map": "/charanvirs-portfolio/static/js/main.a8dd8e81.js.map",
     "787.5203fe8c.chunk.js.map": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ec166c7.css",
-    "static/js/main.af57d144.js"
+    "static/css/main.949b998e.css",
+    "static/js/main.a8dd8e81.js"
   ]
 }
