@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/charanvirs-portfolio/static/css/main.949b998e.css",
-    "main.js": "/charanvirs-portfolio/static/js/main.494b0596.js",
+    "main.js": "/charanvirs-portfolio/static/js/main.0f888a0e.js",
     "static/js/787.5203fe8c.chunk.js": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js",
     "static/media/farloSoftball.png": "/charanvirs-portfolio/static/media/farloSoftball.37999f1dd55581230561.png",
+    "static/media/Charanvir Resume.pdf": "/charanvirs-portfolio/static/media/Charanvir Resume.95e58089bde2887baacd.pdf",
     "static/media/soccerStadium.png": "/charanvirs-portfolio/static/media/soccerStadium.437c532a54b59807b4e2.png",
     "static/media/me.jpeg": "/charanvirs-portfolio/static/media/me.1d94ffed7838896863a5.jpeg",
-    "static/media/Charanvir Resume.pdf": "/charanvirs-portfolio/static/media/Charanvir Resume.d98a459198454a0d8a69.pdf",
     "static/media/cineflex.png": "/charanvirs-portfolio/static/media/cineflex.a2cc50c3673d78986338.png",
     "static/media/EmployeeTracker.png": "/charanvirs-portfolio/static/media/EmployeeTracker.04b93281afbef581083d.png",
     "static/media/mlbStats.png": "/charanvirs-portfolio/static/media/mlbStats.09b5ddd594235fba7f4d.png",
@@ -16,11 +16,11 @@
     "static/media/dragAndDrop.png": "/charanvirs-portfolio/static/media/dragAndDrop.e974d8f6bd57ec6fea5b.png",
     "index.html": "/charanvirs-portfolio/index.html",
     "main.949b998e.css.map": "/charanvirs-portfolio/static/css/main.949b998e.css.map",
-    "main.494b0596.js.map": "/charanvirs-portfolio/static/js/main.494b0596.js.map",
+    "main.0f888a0e.js.map": "/charanvirs-portfolio/static/js/main.0f888a0e.js.map",
     "787.5203fe8c.chunk.js.map": "/charanvirs-portfolio/static/js/787.5203fe8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.949b998e.css",
-    "static/js/main.494b0596.js"
+    "static/js/main.0f888a0e.js"
   ]
 }
